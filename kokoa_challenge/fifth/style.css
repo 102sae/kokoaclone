@@ -1,0 +1,132 @@
+body {
+  height: 100vh;
+  border: 8px solid rgb(63, 221, 168);
+}
+.playlist-header {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.playlist-header__column {
+  width: 50%;
+}
+.playlist-header__column:first-child {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.playlist-header__column:last-child {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: -50px;
+  font-size: x-large;
+  font-weight: 900;
+}
+
+.title-music {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.title-image {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(255, 188, 62);
+  border: 3px solid;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-image {
+  color: white;
+}
+
+.title-music__title {
+  font-size: xx-large;
+  font-weight: bolder;
+  line-height: 1.3;
+}
+
+.title-music__infowrap {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.button-set {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.play-button {
+  position: relative;
+}
+
+.play-button i {
+  position: absolute;
+  right: 105px;
+  margin-top: 17px;
+}
+
+.play-button button {
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: medium;
+  font-weight: 900;
+  border-bottom: 5px solid;
+}
+
+.button-like,
+.button-plus {
+  position: relative;
+}
+
+.button__info {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  border-bottom: 5px solid;
+}
+
+.button-like i,
+.button-plus i {
+  position: absolute;
+  right: 17px;
+  margin-top: 17px;
+}
+
+.music-list__list {
+  list-style: none;
+}
+
+.music-list__song {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.music-list__img {
+  width: 60px;
+  height: 60px;
+  border: 3px solid;
+  border-radius: 10px;
+  background-color: tomato;
+}
+
+.music-list__info :first-child {
+  font-size: large;
+  font-weight: 600;
+}
+
+.music-list__info {
+  margin-left: 70px;
+}
